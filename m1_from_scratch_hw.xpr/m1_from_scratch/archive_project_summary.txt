@@ -1,0 +1,515 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = m1_from_scratch
+Directory = C:/hdl_projects/m1_from_scratch
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<design_1_CORTEXM1_AXI_0_0_synth_1>
+<design_1_clk_wiz_0_0_synth_1>
+<design_1_proc_sys_reset_0_0_synth_1>
+<design_1_axi_uartlite_0_0_synth_1>
+<design_1_xlconstant_0_0_synth_1>
+<design_1_xlconstant_1_0_synth_1>
+<design_1_xlconstant_2_0_synth_1>
+<design_1_auto_pc_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<design_1_CORTEXM1_AXI_0_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_define.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_defs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_defs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/AhbToAxi.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1DbgAXI.vp
+
+<design_1_auto_pc_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/simulation/fifo_generator_vlog_beh.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/247d/hdl/axi_data_fifo_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+
+<design_1_axi_uartlite_0_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/a15e/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+
+<design_1_clk_wiz_0_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_mmcm.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_mmcm.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_mmcm.vh
+
+<design_1_proc_sys_reset_0_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<design_1_xlconstant_0_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+
+<design_1_xlconstant_1_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+
+<design_1_xlconstant_2_0>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_define.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_defs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_defs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_undefs.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/AhbToAxi.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1DbgAXI.vp
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_mmcm.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_mmcm.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_pll.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_mmcm.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/a15e/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/simulation/fifo_generator_vlog_beh.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/247d/hdl/axi_data_fifo_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_/m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./m1_from_scratch.srcs/sources_1/bd/design_1/design_1.bd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_define.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_defs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_defs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/AhbToAxi.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1DbgAXI.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/sim/design_1_CORTEXM1_AXI_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/synth/design_1_CORTEXM1_AXI_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/a15e/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/sim/design_1_axi_uartlite_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/synth/design_1_axi_uartlite_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_axi_periph_0/design_1_CORTEXM1_AXI_0_axi_periph_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_axi_periph_0/design_1_CORTEXM1_AXI_0_axi_periph_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/sim/design_1_xlconstant_2_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/synth/design_1_xlconstant_2_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/synth/design_1.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/sim/design_1.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/simulation/fifo_generator_vlog_beh.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/247d/hdl/axi_data_fifo_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+./m1_from_scratch.srcs/sources_1/bd/design_1/design_1_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+./m1_from_scratch.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+./m1_from_scratch.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+./m1_from_scratch.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<design_1_CORTEXM1_AXI_0_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_define.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_dbg_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_defs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_defs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic_undefs.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/AhbToAxi.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/cm1_nvic.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/3a46/rtl/CortexM1DbgAXI.vp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/sim/design_1_CORTEXM1_AXI_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/synth/design_1_CORTEXM1_AXI_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_CORTEXM1_AXI_0_0/design_1_CORTEXM1_AXI_0_0.xml
+
+<design_1_clk_wiz_0_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_7s_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_pll.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b65a/mmcm_pll_drp_func_us_plus_mmcm.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xml
+
+<design_1_proc_sys_reset_0_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xml
+
+<design_1_axi_uartlite_0_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_board.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/a15e/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/sim/design_1_axi_uartlite_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/synth/design_1_axi_uartlite_0_0.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0.xml
+
+<design_1_xlconstant_0_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/design_1_xlconstant_0_0.xml
+
+<design_1_xlconstant_1_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/design_1_xlconstant_1_0.xml
+
+<design_1_xlconstant_2_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/sim/design_1_xlconstant_2_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/synth/design_1_xlconstant_2_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/design_1_xlconstant_2_0.xml
+
+<design_1_auto_pc_0>
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/simulation/fifo_generator_vlog_beh.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/247d/hdl/axi_data_fifo_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/6020/hdl/axi_register_slice_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/ccfb/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+./m1_from_scratch.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+./m1_from_scratch.ipdefs/Arm_ipi_repository_0/CM1DbgAXI/logical
+
+<design_1_CORTEXM1_AXI_0_0>
+None
+
+<design_1_clk_wiz_0_0>
+None
+
+<design_1_proc_sys_reset_0_0>
+None
+
+<design_1_axi_uartlite_0_0>
+None
+
+<design_1_xlconstant_0_0>
+None
+
+<design_1_xlconstant_1_0>
+None
+
+<design_1_xlconstant_2_0>
+None
+
+<design_1_auto_pc_0>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./m1_from_scratch/vivado.jou
+
+Source File = C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./m1_from_scratch/vivado.log
+

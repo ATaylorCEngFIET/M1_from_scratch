@@ -1,0 +1,8 @@
+13:30:51 INFO  : Registering command handlers for SDK TCF services
+13:30:52 INFO  : Launching XSCT server: xsct.bat -interactive C:\hdl_projects\m1_from_scratch\m1_from_scratch.sdk\temp_xsdb_launch_script.tcl
+13:30:54 INFO  : XSCT server has started successfully.
+13:30:56 INFO  : Successfully done setting XSCT server connection channel  
+13:30:56 INFO  : Restoring global repository preferences: 
+		 V:\vivado\Arm_sw_repository
+13:30:56 INFO  : Successfully done setting SDK workspace  
+13:30:56 INFO  : Processing command line option -hwspec C:/hdl_projects/m1_from_scratch/m1_from_scratch.sdk/design_1_wrapper.hdf.

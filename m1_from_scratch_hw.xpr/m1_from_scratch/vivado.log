@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May  2 09:09:05 2020
+# Process ID: 6824
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25944
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/hdl_projects/m1_from_scratch/m1_from_scratch.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.059 ; gain = 219.125
+update_compile_order -fileset sources_1
+archive_project C:/hdl_projects/m1_from_scratch_hw.xpr.zip -temp_dir C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6824-DESKTOP-L3OMJC1/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_CORTEXM1_AXI_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_clk_wiz_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_proc_sys_reset_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_uartlite_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xlconstant_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xlconstant_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xlconstant_2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'design_1_CORTEXM1_AXI_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_clk_wiz_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_proc_sys_reset_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_uartlite_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xlconstant_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xlconstant_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xlconstant_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_CORTEXM1_AXI_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_CORTEXM1_AXI_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_uartlite_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_uartlite_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_clk_wiz_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_clk_wiz_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_proc_sys_reset_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_proc_sys_reset_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xlconstant_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xlconstant_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xlconstant_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xlconstant_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xlconstant_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xlconstant_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
